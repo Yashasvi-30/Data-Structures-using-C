@@ -3,13 +3,14 @@
 #include <conio.h>
 int main()
 {
+         
 int i, n, arr[20], sum =0;
 float mean = 0.0;
 clrscr();
 printf("\n Enter the number of elements in the array : ");
 scanf("%d", &n);
 
-
+// Entering the elements of array
 for(i=0;i<n;i++)
 {
          printf("\n arr[%d] = ", i);
